@@ -1,0 +1,7 @@
+@SmokeApi_HostAddress = http://localhost:5223
+
+GET {{SmokeApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+POST {{SmokeApi_HostAddress}}/api/Login?nick=b&pass=l
